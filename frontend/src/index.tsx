@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Main from 'components/Main';
-import Schedule from 'components/Schedule';
+import Main from 'components/client/Main';
+import Schedule from 'components/client/Schedule';
+
+import Panel from 'components/admin/Panel';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -11,6 +13,10 @@ ReactDOM.render(
             <Switch>
                 <Route path='/agendamento/'>
                     <Schedule />
+                </Route>
+
+                <Route path='/admin/schedules/'>
+                    <Panel />
                 </Route>
 
                 <Route path='/'>

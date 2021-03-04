@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Footer from 'components/Footer';
+import Footer from 'components/client/Footer';
 
 import 'css/main.css';
 import logo from 'css/images/logo.jpg';
@@ -14,7 +14,7 @@ const Main: React.FC = () => {
 
             <header id="header" className="alt">
                 <h1>Blue Informática</h1>
-                <p><a target="_blank" href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
+                <p><a target="_blank" rel='noreferrer' href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
                     R. Grão Mogol, 61 - Centro, Montes Claros - MG, 39400-056
                     </a>
                 </p>
@@ -40,7 +40,7 @@ const Main: React.FC = () => {
                                 adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
                                 Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
                                 <ul className="actions">
-                                    <li><a href="" className="button">Saiba mais</a></li>
+                                    <li><a href="#" className="button">Saiba mais</a></li>
                                 </ul>
                             </div>
                             <span className="image"><img src={logo} alt="" /></span>
@@ -79,7 +79,7 @@ const Main: React.FC = () => {
                         <footer className="major">
                             <ul className="actions special">
                                 <li><a href="/agendamento/" className="button primary">Agendar</a></li>
-                                <li><a href="generic.html" className="button">Saiba mais</a></li>
+                                <li><a href="#" className="button">Saiba mais</a></li>
                             </ul>
                         </footer>
                     </section>
