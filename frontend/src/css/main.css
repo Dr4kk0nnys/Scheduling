@@ -3791,3 +3791,7 @@ input, select, textarea {
 	height: 180px;
 	border-radius: 50%;
 }
+
+.schedule-input {
+	margin-bottom: 18px;
+}
