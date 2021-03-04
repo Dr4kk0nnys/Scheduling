@@ -3120,7 +3120,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 15%;
+					border-radius: 50%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3782,3 +3783,11 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Custom */
+.user-icon {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}

@@ -1,25 +1,30 @@
 import React from 'react';
 
 import 'css/main.css';
-import 'css/noscript.css';
+import logo from 'css/images/logo.jpg';
+import user1 from 'css/images/user-1.png';
+import user2 from 'css/images/user-2.png';
+import user3 from 'css/images/user-3.png';
 
 const Main: React.FC = () => {
     return (
         <div id="wrapper">
 
             <header id="header" className="alt">
-                <span className="logo"><img src="images/logo.svg" alt="" /></span>
-                <h1>Stellar</h1>
-                <p>Just another free, fully responsive site template<br />
-                built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+                {/* <span className="logo"><img src={logo} alt="" /></span> */}
+                <h1>Blue Informática</h1>
+                <p><a target="_blank" href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
+                    R. Grão Mogol, 61 - Centro, Montes Claros - MG, 39400-056
+                    </a>
+                </p>
             </header>
 
             <nav id="nav">
                 <ul>
-                    <li><a href="#intro" className="active">Introduction</a></li>
-                    <li><a href="#first">First Section</a></li>
-                    <li><a href="#second">Second Section</a></li>
-                    <li><a href="#cta">Get Started</a></li>
+                    <li><a href="#intro" className="active">Quem somos</a></li>
+                    <li><a href="#first">Qualidade de atendimento</a></li>
+                    <li><a href="#second">Agendamento</a></li>
+                    <li><a href="#cta">Rapidez</a></li>
                 </ul>
             </nav>
 
@@ -29,45 +34,40 @@ const Main: React.FC = () => {
                         <div className="spotlight">
                             <div className="content">
                                 <header className="major">
-                                    <h2>Ipsum sed adipiscing</h2>
+                                    <h2>Quem somos</h2>
                                 </header>
                                 <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
                                 adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
                                 Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
                                 <ul className="actions">
-                                    <li><a href="generic.html" className="button">Learn More</a></li>
+                                    <li><a href="" className="button">Saiba mais</a></li>
                                 </ul>
                             </div>
-                            <span className="image"><img src="images/pic01.jpg" alt="" /></span>
+                            <span className="image"><img src={logo} alt="" /></span>
                         </div>
                     </section>
 
                     <section id="first" className="main special">
                         <header className="major">
-                            <h2>Magna veroeros</h2>
+                            <h2>Qualidade de Atendimento</h2>
                         </header>
                         <ul className="features">
                             <li>
-                                <span className="icon solid major style1 fa-code"></span>
-                                <h3>Ipsum consequat</h3>
-                                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                                <img className='icon major user-icon' src={user1} alt="Usuário"/>
+                                <h3>Renato</h3>
+                                <p>Perfeito atendimento ❤️</p>
                             </li>
                             <li>
-                                <span className="icon major style3 fa-copy"></span>
-                                <h3>Amed sed feugiat</h3>
-                                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                                <img className='icon major user-icon' src={user3} alt="Usuário"/>
+                                <h3>Taíssa Damasceno</h3>
+                                <p>Profissional de confiança e serviço de qualidade. Podem confiar.</p>
                             </li>
                             <li>
-                                <span className="icon major style5 fa-gem"></span>
-                                <h3>Dolor nullam</h3>
-                                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                                <img className='icon major user-icon' src={user2} alt="Usuário"/>
+                                <h3>Fernando Francisco</h3>
+                                <p>Ótimo atendimento e música ambiente 👊</p>
                             </li>
                         </ul>
-                        <footer className="major">
-                            <ul className="actions special">
-                                <li><a href="generic.html" className="button">Learn More</a></li>
-                            </ul>
-                        </footer>
                     </section>
 
                     <section id="second" className="main special">
