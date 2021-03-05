@@ -4,14 +4,14 @@ const Footer: React.FC = () => {
     return (
         <footer id="footer">
             <section>
-                <h2>Aliquam sed mauris</h2>
-                <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+                <h2>Serviço de qualidade</h2>
+                <p>Alinhando serviço de qualidade com dedicação e velocidade na entrega. A nossa equipe se desponibiliza a sempre prestar o melhor serviço. Não importa a condição!</p>
                 <ul className="actions">
                     <li><a href="#" className="button">Saiba mais</a></li>
                 </ul>
             </section>
             <section>
-                <h2>Etiam feugiat</h2>
+                <h2>Entre em contato</h2>
                 <dl className="alt">
                     <dt>Endereço</dt>
                     <dd><a rel='noreferrer' target="_blank" href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">

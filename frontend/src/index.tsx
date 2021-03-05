@@ -15,7 +15,7 @@ ReactDOM.render(
                     <Schedule />
                 </Route>
 
-                <Route path='/admin/schedules/'>
+                <Route path='/admin/agendamentos/'>
                     <Panel />
                 </Route>
 

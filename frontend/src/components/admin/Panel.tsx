@@ -69,7 +69,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>
@@ -99,7 +99,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>
@@ -117,7 +117,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
 
@@ -129,7 +129,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>
@@ -183,7 +183,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>
@@ -205,7 +205,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>
@@ -228,7 +228,7 @@ const Panel: React.FC = () => {
 
                                         <li className="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
                                             <a href="#0">
-                                                <em className="event-name-panel-admin">Problema</em>
+                                                <em className="event-name-panel-admin">Upgrade</em>
                                             </a>
                                         </li>
                                     </ul>

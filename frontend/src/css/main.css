@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -172,6 +174,8 @@ input, select, textarea {
 	}
 
 	p {
+		font-family: 'Akaya Telivigala', cursive;
+		font-size: 18px;
 		margin: 0 0 2em 0;
 		color: rgb(211, 207, 201);
 	}

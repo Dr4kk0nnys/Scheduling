@@ -36,9 +36,9 @@ const Main: React.FC = () => {
                                 <header className="major">
                                     <h2>Quem somos</h2>
                                 </header>
-                                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                                <p>Somos a Blue informática, uma equipe altamente qualificada de reparo e manutenção de peças e computadores. 
+                                    Atendemos notebooks, computadores desktop, tablets e outros tipos de equipamentos eletrônicos.
+                                    Priorizamos a qualidade de atendimento e trabalho. Não esquecendo dedicação e velocidade de entrega.</p>
                                 <ul className="actions">
                                     <li><a href="#" className="button">Saiba mais</a></li>
                                 </ul>
@@ -54,16 +54,16 @@ const Main: React.FC = () => {
                         <ul className="features">
                             <li>
                                 <img className='icon major user-icon' src={user1} alt="Usuário"/>
-                                <h3>Renato Versiani</h3>
+                                <h3>Carla Macedo</h3>
                                 <p>Perfeito atendimento ❤️</p>
                             </li>
                             <li>
-                                <img className='icon major user-icon' src={user3} alt="Usuário"/>
+                                <img className='icon major user-icon' src={user2} alt="Usuário"/>
                                 <h3>Taíssa Damasceno</h3>
                                 <p>Profissional de confiança e serviço de qualidade. Podem confiar.</p>
                             </li>
                             <li>
-                                <img className='icon major user-icon' src={user2} alt="Usuário"/>
+                                <img className='icon major user-icon' src={user3} alt="Usuário"/>
                                 <h3>Fernando Francisco</h3>
                                 <p>Ótimo atendimento e música ambiente 👊</p>
                             </li>
@@ -73,8 +73,8 @@ const Main: React.FC = () => {
                     <section id="cta" className="main special">
                         <header className="major">
                             <h2>Marque o seu agendamento</h2>
-                            <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                            posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                            <p>Agendamento permite a nossa equipe se preparar para melhor atendê-lo(a). <br />
+                                Marque o seu agendamento e venha nos visitar!</p>
                         </header>
                         <footer className="major">
                             <ul className="actions special">
