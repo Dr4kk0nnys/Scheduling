@@ -13,10 +13,8 @@ const Main: React.FC = () => {
         <div id="wrapper">
 
             <header id="header" className="alt">
-                <h1>Blue Informática</h1>
-                <p><a target="_blank" rel='noreferrer' href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
-                    R. Grão Mogol, 61 - Centro, Montes Claros - MG, 39400-056
-                    </a>
+                <h1>[nome da empresa]</h1>
+                <p><a target="_blank" rel='noreferrer' href="#">[endereço da sua empresa + link para o google maps]</a>
                 </p>
             </header>
 
@@ -36,7 +34,7 @@ const Main: React.FC = () => {
                                 <header className="major">
                                     <h2>Quem somos</h2>
                                 </header>
-                                <p>Somos a Blue informática, uma equipe altamente qualificada de reparo e manutenção de peças e computadores. 
+                                <p>Somos a [nome da empresa], uma equipe altamente qualificada de reparo e manutenção de peças e computadores. 
                                     Atendemos notebooks, computadores desktop, tablets e outros tipos de equipamentos eletrônicos.
                                     Priorizamos a qualidade de atendimento e trabalho. Não esquecendo dedicação e velocidade de entrega.</p>
                                 <ul className="actions">

@@ -14,13 +14,12 @@ const Footer: React.FC = () => {
                 <h2>Entre em contato</h2>
                 <dl className="alt">
                     <dt>Endereço</dt>
-                    <dd><a rel='noreferrer' target="_blank" href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
-                    R. Grão Mogol, 61 - Centro, Montes Claros - MG</a>
+                    <dd><a rel='noreferrer' target="_blank" href="#">[endereço da sua empresa + link para o google maps]</a>
                     </dd>
                     <dt>Telefone</dt>
-                    <dd>(38) 9 9132 - 6330</dd>
+                    <dd>(38) 9 0000 - 0000</dd>
                     <dt>Email</dt>
-                    <dd><a href="#">bluenaweb@gmail.com</a></dd>
+                    <dd><a href="#">email@gmail.com</a></dd>
                 </dl>
                 <ul className="icons">
                     <li><a href="#" className="icon brands fa-twitter alt"><span className="label">Twitter</span></a></li>
@@ -28,7 +27,7 @@ const Footer: React.FC = () => {
                     <li><a href="#" className="icon brands fa-instagram alt"><span className="label">Instagram</span></a></li>
                 </ul>
             </section>
-            <p className="copyright">&copy; Blue Informática. Todos os direitos reservados.</p>
+            <p className="copyright">&copy; [nome da empresa]. Todos os direitos reservados.</p>
         </footer>
     )
 }

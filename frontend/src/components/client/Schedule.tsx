@@ -21,9 +21,7 @@ const Schedule: React.FC = () => {
 			<div id="wrapper">
                 <header id="header">
                     <h1>Agendar</h1>
-                    <p><a target="_blank" rel='noreferrer' href="https://www.google.com/maps/place/Blue+Inform%C3%A1tica/@-16.7224468,-43.8625366,15z/data=!4m5!3m4!1s0x0:0xbe0211317ea93a22!8m2!3d-16.7224468!4d-43.8625366">
-                        R. Grão Mogol, 61 - Centro, Montes Claros - MG, 39400-056
-                        </a>
+                    <p><a target="_blank" rel='noreferrer' href="#">[endereço da sua empresa + link para o google maps]</a>
                     </p>
                 </header>
 
